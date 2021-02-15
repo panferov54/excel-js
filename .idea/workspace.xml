@@ -19,20 +19,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a4bbabe-047a-47ab-9309-ff9581b7ba73" name="Default Changelist" comment="finish project config">
-      <change afterPath="$PROJECT_DIR$/src/assets/excel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/dashboard.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/formula.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/table.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/toolbar.scss" afterDir="false" />
+    <list default="true" id="6a4bbabe-047a-47ab-9309-ff9581b7ba73" name="Default Changelist" comment="finish css layouts">
+      <change afterPath="$PROJECT_DIR$/src/components/excel/Excel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/formula/Formula.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/table/Table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/table/table.template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/toolbar/Toolbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/DomListener.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/ExcelComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/dom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +94,9 @@
       <workItem from="1612172061212" duration="1292000" />
       <workItem from="1612424157452" duration="13123000" />
       <workItem from="1612854171566" duration="238000" />
-      <workItem from="1612855466108" duration="4502000" />
+      <workItem from="1612855466108" duration="6018000" />
+      <workItem from="1613027066598" duration="10122000" />
+      <workItem from="1613362821379" duration="5249000" />
     </task>
     <task id="LOCAL-00001" summary="1.0.12">
       <created>1612157821162</created>
@@ -121,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612513398237</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="finish css layouts">
+      <created>1612861368015</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1612861368015</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +154,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.0.12" />
     <MESSAGE value="finish project config" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish project config" />
+    <MESSAGE value="finish css layouts" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish css layouts" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
