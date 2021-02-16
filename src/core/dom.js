@@ -38,6 +38,33 @@ constructor(selector) {
     return this
     }
 
+   get data(){
+    return this.$el.dataset
+   }
+    closest(selector){
+    return $(this.$el.closest(selector))
+    }
+    getCoords(){
+    return this.$el.getBoundingClientRect()
+    }
+
+    findAll(selector){
+    return this.$el.querySelectorAll(selector)
+
+    }
+    css(styles={}){
+        // for (const key in styles)
+        // {
+        //     if(styles.hasOwnProperty(key)){
+        //         console.log(key)
+        //         console.log(styles[key])
+        //     }
+        //
+        // }
+        Object.keys(styles).forEach(key=> {
+            this.$el.style[key]=styles[key]
+        })
+    }
 }
 
 
