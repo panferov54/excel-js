@@ -80,6 +80,11 @@ constructor(selector) {
     return this.data.id
     }
 
+    focus(){
+    this.$el.focus()
+        return this
+    }
+
     addClass(className){
     this.$el.classList.add(className)
     }
