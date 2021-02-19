@@ -19,11 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a4bbabe-047a-47ab-9309-ff9581b7ba73" name="Default Changelist" comment="added selection group of cells with a mouse click">
+    <list default="true" id="6a4bbabe-047a-47ab-9309-ff9581b7ba73" name="Default Changelist" comment="added navigation with buttons 'Enter','Tab','ArrowUp','ArrowDown','ArrowLeft','ArrowRight'">
+      <change afterPath="$PROJECT_DIR$/src/core/Emitter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/excel/Excel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/excel/Excel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/formula/Formula.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/formula/Formula.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/table/Table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/table/Table.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/table/TableSelection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/table/TableSelection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/table/table.functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/table/table.functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/toolbar/Toolbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/toolbar/Toolbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/ExcelComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/ExcelComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/core/dom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/dom.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +72,16 @@
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="Emitter.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/core/Emitter.js" working-dir="$PROJECT_DIR$/src/core">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.Emitter.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -86,7 +100,7 @@
       <workItem from="1612855466108" duration="6018000" />
       <workItem from="1613027066598" duration="10122000" />
       <workItem from="1613362821379" duration="23624000" />
-      <workItem from="1613621048152" duration="4512000" />
+      <workItem from="1613621048152" duration="10382000" />
     </task>
     <task id="LOCAL-00001" summary="1.0.12">
       <created>1612157821162</created>
@@ -151,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613623964543</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added navigation with buttons 'Enter','Tab','ArrowUp','ArrowDown','ArrowLeft','ArrowRight'">
+      <created>1613634483472</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1613634483472</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +198,8 @@
     <MESSAGE value="finish table resize" />
     <MESSAGE value="added selection of cells with a mouse click" />
     <MESSAGE value="added selection group of cells with a mouse click" />
-    <option name="LAST_COMMIT_MESSAGE" value="added selection group of cells with a mouse click" />
+    <MESSAGE value="added navigation with buttons 'Enter','Tab','ArrowUp','ArrowDown','ArrowLeft','ArrowRight'" />
+    <option name="LAST_COMMIT_MESSAGE" value="added navigation with buttons 'Enter','Tab','ArrowUp','ArrowDown','ArrowLeft','ArrowRight'" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
