@@ -19,20 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a4bbabe-047a-47ab-9309-ff9581b7ba73" name="Default Changelist" comment="save state col and row after reload">
-      <change afterPath="$PROJECT_DIR$/src/core/StoreSubscriber.js" afterDir="false" />
+    <list default="true" id="6a4bbabe-047a-47ab-9309-ff9581b7ba73" name="Default Changelist" comment="optimization of subscription logic">
+      <change afterPath="$PROJECT_DIR$/src/components/toolbar/toolbar.template.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/excel/Excel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/excel/Excel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/formula/Formula.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/formula/Formula.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/table/Table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/table/Table.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/table/table.template.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/table/table.template.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/ExcelComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/ExcelComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/createStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/createStore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/initialState.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/initialState.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/rootReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/rootReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/toolbar/Toolbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/toolbar/Toolbar.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +97,7 @@
       <workItem from="1613621048152" duration="11516000" />
       <workItem from="1614140369200" duration="3448000" />
       <workItem from="1614226759103" duration="9284000" />
-      <workItem from="1614484870759" duration="2062000" />
+      <workItem from="1614484870759" duration="4464000" />
     </task>
     <task id="LOCAL-00001" summary="1.0.12">
       <created>1612157821162</created>
@@ -193,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614246806590</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="optimization of subscription logic">
+      <created>1614583553124</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1614583553124</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +219,8 @@
     <MESSAGE value="added navigation with buttons 'Enter','Tab','ArrowUp','ArrowDown','ArrowLeft','ArrowRight'" />
     <MESSAGE value="finish base table logic" />
     <MESSAGE value="save state col and row after reload" />
-    <option name="LAST_COMMIT_MESSAGE" value="save state col and row after reload" />
+    <MESSAGE value="optimization of subscription logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="optimization of subscription logic" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
