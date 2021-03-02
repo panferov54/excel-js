@@ -25,23 +25,23 @@ export function createToolbar(state){
         },
         {
             icon:'format_underlined',
-            active:state['textDecoration']==='underlined',
-            value:{textDecoration:state['textDecoration']==='underlined'?'none':'underlined'}
+            active:state['textDecoration']==='underline',
+            value:{textDecoration:state['textDecoration']==='underline'?'none':'underline'}
         },
         {
             icon:'format_align_left',
             active:state['textAlign']==='left',
-            value:{textAlign:state['textAlign']==='left'?'normal':'left'}
+            value:{textAlign:'left'}
         },
         {
             icon:'format_align_center',
             active:state['textAlign']==='center',
-            value:{textAlign:state['textAlign']==='center'?'left':'center'}
+            value:{textAlign:'center'}
         },
         {
             icon:'format_align_right',
             active:state['textAlign']==='right',
-            value:{textAlign:state['textAlign']==='right'?'left':'right'}
+            value:{textAlign:'right'}
         }
     ]
     return buttons.map(toButton).join('')
