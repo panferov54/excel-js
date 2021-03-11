@@ -19,15 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a4bbabe-047a-47ab-9309-ff9581b7ba73" name="Default Changelist" comment="adding change table name">
-      <change afterPath="$PROJECT_DIR$/src/core/parse.js" afterDir="false" />
+    <list default="true" id="6a4bbabe-047a-47ab-9309-ff9581b7ba73" name="Default Changelist" comment="add cell parsing">
+      <change afterPath="$PROJECT_DIR$/src/core/Page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/routes/ActiveRoute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/routes/Router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/DashboardPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ExcelPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/formula/Formula.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/formula/Formula.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/table/Table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/table/Table.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/table/table.template.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/table/table.template.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/dom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/dom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/excel/Excel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/excel/Excel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +102,7 @@
       <workItem from="1613621048152" duration="11516000" />
       <workItem from="1614140369200" duration="3448000" />
       <workItem from="1614226759103" duration="9284000" />
-      <workItem from="1614484870759" duration="16875000" />
+      <workItem from="1614484870759" duration="21384000" />
     </task>
     <task id="LOCAL-00001" summary="1.0.12">
       <created>1612157821162</created>
@@ -238,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614764334223</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add cell parsing">
+      <created>1615275683437</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1615275683437</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,7 +280,8 @@
     <MESSAGE value="changing styles via store" />
     <MESSAGE value="saving styles" />
     <MESSAGE value="adding change table name" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding change table name" />
+    <MESSAGE value="add cell parsing" />
+    <option name="LAST_COMMIT_MESSAGE" value="add cell parsing" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
