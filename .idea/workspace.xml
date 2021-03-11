@@ -19,12 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a4bbabe-047a-47ab-9309-ff9581b7ba73" name="Default Changelist" comment="add refactoring with pages">
-      <change afterPath="$PROJECT_DIR$/src/pages/dashboard.function.js" afterDir="false" />
+    <list default="true" id="6a4bbabe-047a-47ab-9309-ff9581b7ba73" name="Default Changelist" comment="create main page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/routes/Router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/routes/Router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/DashboardPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/DashboardPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ExcelPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ExcelPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/initialState.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/initialState.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +98,7 @@
       <workItem from="1613621048152" duration="11516000" />
       <workItem from="1614140369200" duration="3448000" />
       <workItem from="1614226759103" duration="9284000" />
-      <workItem from="1614484870759" duration="23947000" />
+      <workItem from="1614484870759" duration="26206000" />
     </task>
     <task id="LOCAL-00001" summary="1.0.12">
       <created>1612157821162</created>
@@ -248,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615435657137</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="create main page">
+      <created>1615452067802</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1615452067802</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,7 +292,8 @@
     <MESSAGE value="adding change table name" />
     <MESSAGE value="add cell parsing" />
     <MESSAGE value="add refactoring with pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="add refactoring with pages" />
+    <MESSAGE value="create main page" />
+    <option name="LAST_COMMIT_MESSAGE" value="create main page" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

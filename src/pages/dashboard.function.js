@@ -1,7 +1,7 @@
 function toHTML(){
     return `
          <li class="db__record">
-            <a href="#">Тестовая Таблица</a>
+            <a href="#">Таблица номер 1</a>
             <strong>12.01.2021</strong>
         </li>
     `
