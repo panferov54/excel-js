@@ -7,7 +7,6 @@ export class Page {
     throw new Error('Method getRoot should be implementid')
     }
     afterRender(){
-
     }
     destroy(){
 
